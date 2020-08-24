@@ -12,10 +12,10 @@ Small project summary here.
 ## Schedule
 
 # Client
--TBD, initial meeting Tues 8/25. 
+- TBD, initial meeting Tues 8/25. 
 
 # Mentor
--Wednesdays at 4
+- Wednesdays at 4
 
 # Group
--Mondays at 4 
+- Mondays at 4 
