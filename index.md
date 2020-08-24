@@ -2,7 +2,8 @@
 title: "Home"
 permalink: /
 ---
-[Journal](/Overview/journal) | [Project](/Overview/project) | [Team](/Overview/team) | [Deliverables](/Overview/deliverables)
+[Home](/Overview/) | [Journal](/Overview/journal) | [Project](/Overview/project) | [Team](/Overview/team) | [Deliverables](/Overview/deliverables)
+
 
 ### Avien Diet Database Overview
 
