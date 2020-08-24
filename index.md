@@ -3,7 +3,7 @@ layout: page
 title: "Home"
 permalink: /
 ---
-[Journal]https://comp523fa2020.github.io/Overview/journal{: .btn }
+[Journal]https://comp523fa2020.github.io/Overview/journal | 
 
 ### Avien Diet Database Overview
 
