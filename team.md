@@ -17,3 +17,12 @@ permalink: /team
 - Thomas Le:      [elsamoht@live.unc.edu]
   - Backend Lead
   - Infrastructure Lead
+
+## Rules
+
+-	Should a team member miss a meeting, he should notify other team members ASAP; best if other members are notified 24 hours in advance
+-	Main source of communication among team members will be GroupMe
+-	Try to check GroupMe at least twice a day (weekends included)
+-	If there is a no response from a team member; other members will decide on the best action, and they might move on 
+-	Coding style; not finalized yet
+-	Git collaboration; not finalized yet
