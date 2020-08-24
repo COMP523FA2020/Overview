@@ -2,7 +2,7 @@
 title: "Home"
 permalink: /
 ---
-[Journal]https://comp523fa2020.github.io/Overview/journal | 
+[Journal]/journal | 
 
 ### Avien Diet Database Overview
 
