@@ -1,7 +1,7 @@
 ### Avien Diet Database Overview
 
 Small project summary here. 
-
+|[Link button](http://example.com/){: .btn }|
 ## Contributors
 
 - Teddy Randby:   [kerandby@live.unc.edu]
