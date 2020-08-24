@@ -9,8 +9,13 @@ permalink: /
 
 Small project summary here. 
 
-# Team Behavior
+## Schedule
 
-# Coding Style
+# Client
+-TBD, initial meeting Tues 8/25. 
 
-# Git Collaboration
+# Mentor
+-Wednesdays at 4
+
+# Group
+-Mondays at 4 
