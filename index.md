@@ -5,17 +5,17 @@ permalink: /
 [Home](/Overview/) | [Journal](/Overview/journal) | [Project](/Overview/project) | [Team](/Overview/team) | [Deliverables](/Overview/deliverables)
 
 
-### Avien Diet Database Overview
+# Summary
 
 Small project summary here. 
 
 ## Schedule
 
-# Client
+### Client
 - TBD, initial meeting Tues 8/25. 
 
-# Mentor
+### Mentor
 - Wednesdays at 4
 
-# Group
+### Group
 - Mondays at 4 
