@@ -2,7 +2,7 @@
 title: "Home"
 permalink: /
 ---
-[Journal]/journal | 
+[Journal](/journal) | 
 
 ### Avien Diet Database Overview
 
