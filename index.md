@@ -1,7 +1,8 @@
+|[journal]{: .btn }|
+
 ### Avien Diet Database Overview
 
 Small project summary here. 
-|[Journal](https://comp523fa2020.github.io/Overview/Journal){: .btn }|
 ## Contributors
 
 - Teddy Randby:   [kerandby@live.unc.edu]
