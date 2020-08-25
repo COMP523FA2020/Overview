@@ -2,8 +2,7 @@
 title: "Home"
 permalink: /
 ---
-[Home](/Overview/) | [Journal](/Overview/journal) | [Project](/Overview/project) | [Team](/Overview/team) | [Deliverables](/Overview/deliverables)
-
+[Home](/Overview/) |  [Project](/Overview/project) | [Team](/Overview/team) | [Journal](/Overview/journal) | [Deliverables](/Overview/deliverables)
 
 # Summary
 
