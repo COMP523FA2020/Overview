@@ -8,13 +8,13 @@ permalink: /journal/
 
 **Mentor Meeting (8/26)**
 
-***Recap the meeting with Professor Hurlbert: 
+***Recap the meeting with Professor Hurlbert***: 
 
 -	We were able to ask why he preferred certain requirements over others
 -	Professor Hurlbert walked us through the PowerPoint and shared his vision with us
 -	More details can be found under meeting notes w/ client (8/25)
 
-***Should we learn R?: 
+***Should we learn R?***: 
 
 -	It really depends; the timeline for this project is very tight, so we have to consider the pros and cons of the choices
 -	It is okay not to learn R since it isn’t the only way
@@ -26,28 +26,28 @@ permalink: /journal/
 -	If the database and the spreadsheet have different information, which one do we trust?
 -	Food for thought: when the user adds new studies to the website, have that upload/generate an excel spreadsheet
 
-***The benefits of doing the design with InVision: 
+***The benefits of doing the design with InVision***: 
 
 -	Making sure that all three of us are on the same page before we start coding
 -	Making sure that we have an early deliverable for the client so he could offer any suggestions/disputes
 -	This design will pretty much be the clickable prototype that is due on 9/13
 
-***Data visualization: 
+***Data visualization***: 
 
 -	This application is used for reporting
 -	Review the PPT to see what Professor Hurlbert wants
 
-***Prototype: web and mobile: 
+***Prototype: web and mobile***: 
 
 -	Difficulties with mobile apps and all of the different types of apps
 -	Again, timeline for this project is tight, so we have to consider if making a prototype for the mobile device is worth it
 
-***Saving the different iterations of the architecture diagrams:
+***Saving the different iterations of the architecture diagrams***:
  
 -	Useful in presentations to see the changes that have been made along the way
 -	Demonstrates the different ideas that we came up with and the team’s growth
 
-***Communication management: 
+***Communication management***: 
 
 -	Chucking up the work, so other people have the ability and authority to make decisions
 -	Positive and negative feedbacks should both be welcomes
@@ -55,7 +55,7 @@ permalink: /journal/
 -	Zoom open with no-one talking is useful since that be induce a collaboration environment
 -	The benefits of using mural to share ideas with one another
 
-***Git collaboration meeting: 
+***Git collaboration meeting***: 
 
 -	We should document our git procedures to ensure that everyone is on the same page
 -	Good reference point down the road
