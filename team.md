@@ -6,15 +6,15 @@ permalink: /team
 
 ## Contributors
 
-- Teddy Randby:   [kerandby@live.unc.edu]
+- Teddy Randby:   [kerandby@live.unc.edu](mailto:kerandby@live.unc.edu)
   - Project Manager
   - Webmaster
   - Tech Lead
   - Frontend Lead
-- Muyan Pan:      [muyan@live.unc.edu]
+- Muyan Pan:      [muyan@live.unc.edu](mailto:muyan@live.unc.edu)
   - Client Manager
   - Design Lead
-- Thomas Le:      [elsamoht@live.unc.edu]
+- Thomas Le:      [elsamoht@live.unc.edu](mailto:elsamoht@live.unc.edu)
   - Backend Lead
   - Infrastructure Lead
 
