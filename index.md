@@ -4,17 +4,8 @@ permalink: /
 ---
 [Home](/Overview/) |  [Project](/Overview/project) | [Team](/Overview/team) | [Journal](/Overview/journal) | [Deliverables](/Overview/deliverables)
 
-# Summary
+## What is the purpose of this site?
 
-Small project summary here. 
+This site is created for UNC's Fall 2020 COMP 524 class as an overview for the [Avian Database Project](/Overview/project) [Team R](/Overview/team) is working on.
 
-## Schedule
-
-### Client
-- TBD, initial meeting Tues 8/25. 
-
-### Mentor
-- Wednesdays at 4
-
-### Group
-- Mondays at 4 
+Course website [here](https://comp523.cs.unc.edu).
