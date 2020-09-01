@@ -24,5 +24,11 @@ permalink: /team
 -	Main source of communication among team members will be GroupMe
 -	Try to check GroupMe at least twice a day (weekends included)
 -	If there is a no response from a team member; other members will decide on the best action, and they might move on 
--	Coding style; not finalized yet
+
+### Coding Style
+-   Use JavaScript linter [ESLint](https://eslint.org/)
+-   Use [JavaScript Standard Style](https://standardjs.com/)
+-   Video discussing how to use Standard and ESLint together [here](https://www.youtube.com/watch?v=kuHfMw8j4xk)
+
+### Git Collaboration
 -	Git collaboration; not finalized yet
