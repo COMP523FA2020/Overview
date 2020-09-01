@@ -4,6 +4,17 @@ permalink: /journal/
 ---
 [Home](/Overview/) |  [Project](/Overview/project) | [Team](/Overview/team) | [Journal](/Overview/journal) | [Deliverables](/Overview/deliverables)
 
+## Meeting Schedules
+
+### Client
+- Fridays at 3pm
+
+### Mentor
+- Wednesdays at 4pm
+
+### Team
+- Mondays at 4pm
+
 # Journals
 
 **Mentor Meeting (8/26)**
