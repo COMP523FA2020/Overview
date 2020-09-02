@@ -17,6 +17,73 @@ permalink: /journal/
 
 # Journals
 
+**8/31/20 Weekly Group Meeting**
+
+**Decisions:**
+
+-	Going to keep on using InVision for design
+-	As a group, we do not see a good reason for switching over to Figma
+-	We are going to work on User Stories using Google Docs
+-	Still haven’t decided how we are going to process the data; will brainstorm more as a group 
+
+**Recaps + Plans:**
+
+-	Thomas: reviewed Carolina Cloud Apps; finished project summary + project description; will focus on updating the website
+-	Muyan: continue working on user stories and design
+-	Teddy: reviewed Carolina Cloud Apps; continue working on user stories
+
+**Actions items:**
+
+-	Muyan: review Thomas’s project summary/description; review Thomas’s website changes; continue working on user stories and design; email Professor Hurlbert about Summer of Code work
+-	Thomas: finalize project description; update the website with appropriate format changes
+-	Teddy: review Thomas’s project summary/description; review Thomas’s website changes; continue working on user stories; draft meeting questions for Jacob
+
+**Client Meeting (8/28)**
+
+**Professor Hurlbert is envisioning 3 types of users:**
+
+-	Scientists and ecologists: for many bird species, they know in general what the birds eat. However, when we start considering climate and land changes, we want to know how those changes will impact birds and their prey. Global changes will affect insects, and by exploring which birds rely on those specific insects, we can see the impact on birds. In addition, scientists don’t have the necessary technical skills to extract data from the flat excel file, so they need a better way to find out what birds eat. 
+-	Non-scientists: people who are interested in birds and the natural world. Professor Hurlbert is going to publish this data set, and he is expecting press since this is the largest compilation of this type of data. This project can be a science outreach and reach others learn more about birds and ecology. Professor Hurlbert hasn’t figured out how people will discover this website (that is a different challenge). He wants this website to be easy and intuitive for non-scientists
+-	Professor Hurlbert: he has already written summary scripts, but there some scripts/data visualization tools that he hasn’t written yet. He wants to be able to use this project in the future to demonstrate bird diet/ecology related topics.
+
+**End notes:**
+
+-	No authorization should be needed for the website (beginner friendly)
+-	Mobile friendly to attract the non-scientist audience group since they will access the website on their mobile devices first. 
+-	Professor Hurlbert prefers mySQL since decent amount of work has already been done on mySQL by his Summer of Code group.
+-	Professor Hurlbert will try to forward us previous work from Summer of Code group
+
+**8/28/20 Weekly Group Meeting**
+
+**Went through Git Collaboration:**
+
+-	Talked about git flow vs truck-based development (pros and cons of each)
+-	We are going to use a trunk-based development workflow
+-	There would be 1 master branch, and anytime someone wants to work on a new feature, they would check out a branch
+-	When the feature branch is finished, they would rebase the master branch before merging in the feature branch
+-	The workflow layout that we are following: https://www.endoflineblog.com/oneflow-a-git-branching-model-and-workflow
+-	We aren’t going to focus much on release branches and hotfixes
+-	Code review are required for every commit, and pull requests are required for every push
+-	Look at a code review within 48 hours; let the team know if you can’t get to it
+
+**Went through Code Style:**
+
+-	Everyone agreed with the Code Style suggestions from last meeting
+-	In addition to JavaScript Standard Style, we are also going to use ESLint (eslint.org)
+
+**Next steps:**
+
+-	Thomas has finished a description of the project, other team members should review it before adding it to the website
+-	Upcoming meeting with Professor Hurlbert this afternoon; will focusing on clarifying project description + start thinking about user stories
+-	Teddy will look more into Carolina Cloud App
+-	Muyan shared his InVision design of the website so far; needs a lot of work; will look at other websites for ideas
+
+**Action items:**
+
+-	Teddy: review Thomas’s description, create Github project repository, look more into Carolina Cloud App
+-	Muyan: review Thomas’s description, update team rules, continue working on InVision design
+-	Thomas: finalize description and update the website, meet with Professor Hurlbert to clarify any misunderstandings
+
 **Mentor Meeting (8/26)**
 
 **Recap the meeting with Professor Hurlbert**: 
@@ -174,35 +241,3 @@ Professor Hurlbert showed us the flat excel data + went over the column descript
 - Check out new branches over using git stash
 - Pull request and code reviews are situational, depending on the impact of the code changes
 - Give team members 24 hours to review pull requests and code reviews
-
-**8/28/20 Weekly Group Meeting**
-
-**Went through Git Collaboration:**
-
--	Talked about git flow vs truck-based development (pros and cons of each)
--	We are going to use a trunk-based development workflow
--	There would be 1 master branch, and anytime someone wants to work on a new feature, they would check out a branch
--	When the feature branch is finished, they would rebase the master branch before merging in the feature branch
--	The workflow layout that we are following: https://www.endoflineblog.com/oneflow-a-git-branching-model-and-workflow
--	We aren’t going to focus much on release branches and hotfixes
--	Code review are required for every commit, and pull requests are required for every push
--	Look at a code review within 48 hours; let the team know if you can’t get to it
-
-**Went through Code Style:**
-
--	Everyone agreed with the Code Style suggestions from last meeting
--	In addition to JavaScript Standard Style, we are also going to use ESLint (eslint.org)
-
-**Next steps:**
-
--	Thomas has finished a description of the project, other team members should review it before adding it to the website
--	Upcoming meeting with Professor Hurlbert this afternoon; will focusing on clarifying project description + start thinking about user stories
--	Teddy will look more into Carolina Cloud App
--	Muyan shared his InVision design of the website so far; needs a lot of work; will look at other websites for ideas
-
-**Action items:**
-
--	Teddy: review Thomas’s description, create Github project repository, look more into Carolina Cloud App
--	Muyan: review Thomas’s description, update team rules, continue working on InVision design
--	Thomas: finalize description and update the website, meet with Professor Hurlbert to clarify any misunderstandings
-
