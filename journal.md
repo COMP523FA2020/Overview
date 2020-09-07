@@ -17,6 +17,61 @@ permalink: /journal/
 
 # Journals
 
+**Client Meeting (9/4)**
+
+**Professor Hurlbert’s feedback on the design:**
+
+-	Prefers a specific URL with each bird/query; easier to share the results with others
+-	Get rid of 2nd page of the design; we can put the search bar on the home page to minimize clicks
+-	Get rid of the random species feature
+-	Prefers to have all 4 graphs displayed at once; 2X2 grid
+-	Graphs should have fixed width? (have to brainstorm how the graphs would look on different monitor sizes)
+-	Data sources should be at the bottom of the page; the table results should be at the center of the page under query criteria 
+-	Don’t make bird 3 on the query page a dropdown 
+-	Think about having dynamic pages, so we don’t have to use a refresh button
+-	“data from” summary should be moved to the left of the page
+-	Check boxes should be under the summary and before the results table
+-	Make sure that the user knows that the check boxes will impact the results table
+-	Modifying the checkboxes will affect the url?
+-	Include a description on the home page
+-	Get rid of the brown color (and the leaves); Professor Hurlbert will provide us with a theme
+-	Add a navigation bar at the top of every page
+
+**Mentor Meeting 9/2:**
+
+**Jacob going over the website:**
+
+-	Website is looking good; being updated frequently
+-	Jacob went through the different requirements for the website making sure that they are present
+-	Jacob had trouble accessing the summary and description LOL
+
+**User stories:**
+
+-	User stories can either take 5 minutes or days; really depends on how much thought we put into them and well we are communicating with Professor Hurlbert
+-	Don’t be afraid to write additional user stories; those can help us be more aligned with Professor Hurlbert’s vision, and we can always drop them if we don’t finish like they are needed in the future
+-	User stories can be really useful since they act as a constant reminder of what we need to do
+-	User stories really shouldn’t be specific at all; think about the large goals that the user is trying to get out of our web application
+-	Create a user story even if we aren’t ready for it; can always put it in the backlog
+
+**Git collaboration:**
+
+-	We all have different roles, so we should communicate our needs with on another
+-	Before code reviews, just have a meeting where we show each other our code and what they accomplish
+-	Things that we share and stress about in our code reviews should be different than the things we share with Professor Hurlbert (different level of details)
+-	Swim lanes and web sequences can be useful to show our expectations of one another
+-	Make sure that our solution can be useful from start to finish
+
+**Communication notes:**
+
+-	We should be constantly reviewing our meeting notes with Professor Hurlbert when working on design and coding
+-	When Muyan is working on the design, he should go over it with Teddy and Thomas so ensure that everyone’s thoughts align
+-	There are pros and cons for choosing different technologies, so we need to talk it over together
+-	Every day of the week should have a different purpose and schedule
+-	The design always has to stay ahead of the development team, however, we can start thinking about backend calls when working on the design
+-	Others can work on the code even if Muyan isn’t complete with the design
+-	Get some parts of the design into code so we can have something to show Professor Hurlbert
+-	Hurlbert won’t get his peers for reflections unless he sees a proper prototype
+
 **8/31/20 Weekly Group Meeting**
 
 **Decisions:**
