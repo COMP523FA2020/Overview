@@ -14,3 +14,28 @@ This type of data is of interest to many different types people like scientist, 
 
 This project addresses this problem and provides a solution by aiming to create a desktop and mobile-friendly website that allows the beforementioned users to explore the database in an intuitive manner and provides easy to digest visualizations. This includes new ways to query data, easy-to-apply filters, search functionalities, and graphical data summaries.
 
+### User Stories
+
+**Need-to-have:**
+
+- As a web user, in order to store the query results locally, I can download the table that captures the avian diets.
+
+- As a web user, in order to have flexible to querying the database, I can use filters such as seasons, year range, and region. 
+
+- As a web user, in order to see an overview of the spread of avian studies, I can use the different bar graphs that categorize the different studies. 
+
+- As a web user, in order to share my findings with others, I can copy the bird or food's URL on the top of the page.
+
+- As a web user, in order to see how the different criteria will affect the query results, I can modify check boxes and the page be updated dynamically. 
+
+- As a web user, in order to have the flexibility of query based on bird or prey, I can choose the correct criteria on the homepage. 
+
+- As a web user, in order to navigate between different bird and preys, I can clicked on their names which are hyperlinked to their respective pages.  
+
+**Nice-to-have:**
+
+- As a web user, in order to encourage collaboration, I can share my query results with a unique link/URL.
+
+- As a web user, in order to facilitate more intuitive searching, I can query birds and foods with a search bar that auto-completes. 
+
+- As a web user, in order to explore the data, I can press an "I'm feeling lucky" button to take me to a random bird/food.
