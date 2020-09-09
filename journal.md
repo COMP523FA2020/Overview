@@ -17,6 +17,33 @@ permalink: /journal/
 
 # Journals
 
+**Weekly Group Meeting (9/7):**
+
+**User Stories:**
+
+-	Went over user stories on Trello board, decided as a group if there are any more user stories that we wanted to add
+-	Added two more stories to the “nice-to-have” column
+-	Teddy will send our user stories to Jacob on Slack so he can look over them and provide feedbacks before Wednesday
+
+**Design:**
+
+-	Going to implement some changes to our design based on feedback from Professor Hurlbert
+-	Going to show Jacob our design on Wednesday for additional feedback
+-	Make a copy of the design to include in our presentation later on (changes over time)
+-	Teddy and Muyan will continue working on the design this week
+
+**Backend:*
+
+-	Teddy has posted some useful video about API and backend stuff, so Muyan and Thomas should take a look at them when possible
+-	We still have some questions when it comes to using Carolina Cloud Apps
+-	Teddy recommended some videos 
+o	https://www.youtube.com/watch?v=7giZGFDGnkc&list=PL55RiY5tL51rG1x02Yyj93iypUuHYXcB_
+o	https://www.youtube.com/watch?v=65a5QQ3ZR2g&list=PL55RiY5tL51oGJorjEgl6NVeDbx_fO5jR
+-	Decided to use MongoDB
+-	Muyan will send Professor Hurlbert an list of onyens for Carolina Cloud Apps
+-	Ask Jacob if Carolina Cloud Apps is actually needed on Wednesday
+-	For feature code changes, we should have a blueprint before we start coding that needs to be approved (along with a Code Review at the end)
+
 **Client Meeting (9/4)**
 
 **Professor Hurlbert’s feedback on the design:**
