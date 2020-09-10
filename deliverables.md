@@ -6,3 +6,6 @@ permalink: /deliverables
 
 ### Assignment 1: Trello Board
 - [https://trello.com/c/W9sxRC4J/3-assgn2-web-site](https://trello.com/c/W9sxRC4J/3-assgn2-web-site) (private)
+
+### Assignment 3: User Stories
+- [Under Project Section](/Overview/project)
