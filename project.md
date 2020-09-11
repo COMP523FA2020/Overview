@@ -20,7 +20,7 @@ This project addresses this problem and provides a solution by aiming to create 
 
 - As a web user, in order to store the query results locally, I can download the table that captures the avian diets.
 
-- As a web user, in order to have flexible to querying the database, I can use filters such as seasons, year range, and region. 
+- As a web user, in order to have flexibility in querying the avian database, I can use filters such as seasons, year range, and region.
 
 - As a web user, in order to see an overview of the spread of avian studies, I can use the different bar graphs that categorize the different studies. 
 
@@ -28,9 +28,9 @@ This project addresses this problem and provides a solution by aiming to create 
 
 - As a web user, in order to see how the different criteria will affect the query results, I can modify check boxes and the page be updated dynamically. 
 
-- As a web user, in order to have the flexibility of query based on bird or prey, I can choose the correct criteria on the homepage. 
+- As a web user, in order to search by predator or prey, I can refine query based on type of bird or type of prey.
 
-- As a web user, in order to navigate between different bird and preys, I can clicked on their names which are hyperlinked to their respective pages.  
+- As a web user, in order to navigate between different birds and prey, I can visit their pages by clicking on their names in query results.
 
 **Nice-to-have:**
 
