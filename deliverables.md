@@ -9,3 +9,6 @@ permalink: /deliverables
 
 ### Assignment 3: User Stories
 - [Under Project Section](/Overview/project)
+
+### Assignment 4: Clickable Prototype
+- [InVision Project](https://projects.invisionapp.com/prototype/BirdyDesign-ckf4o3rnp0013tx01kkjjzjlc/play/60539f25)
