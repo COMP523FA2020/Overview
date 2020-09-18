@@ -17,6 +17,97 @@ permalink: /journal/
 
 # Journals
 
+**Mentor Meeting (9/16):**
+
+**Design**
+
+-	Even the perfect user needs a clickable prototype
+-	Make the criteria much more clear; the user might not know that they need to change the criteria
+-	Replace the underlines with appropriate icons so that they attract the users
+-	The current design uses too much underlines, so that might need to be changed
+-	Jacob agrees with Teddy’s search bar design, so we will incorporate that into the clickable prototype
+-	Use 5 why’s to question Professor Hurlbert on the search bar
+-	Get some users and have them decide on which search bar looks better
+
+**Future notes**
+
+-	Anytime that we make a change to the walking skeleton, have Professor Hurlbert look at it and get some feedbacks; make sure to record those feedbacks
+-	We might forget some details so recordings are useful
+-	Don’t just record what they say but also their actions (how their mouse cursor is moving)
+-	Feedbacks are useful when we prepare for our final presentation
+
+
+
+**Birdy Weekly Meeting 9/14:**
+
+**Recap**
+
+-	Continue working on the design (implementing 2nd round feedbacks from Professor Hurlbert)
+-	Muyan and Thomas will watch the resources videos that Teddy provided
+-	Thomas set up Carolina Cloud App and played around with it
+
+**Action items**
+
+-	Continue looking at different data schemas and how to convert the text files data formats that we can use
+-	Sync up on how the front and back ends will communicate
+-	Update design with features that both Muyan and Thomas created
+
+
+**Client Meeting 9/11:**
+
+**User stories:**
+
+-	Teddy went over the user stories with Professor Hurlbert; everything is good there
+
+**Design:**
+
+-	Professor Hurlbert wants the search bars to appear on the homepage by default (without any clicks)
+-	Prefers 2 search bars over 1
+-	Professor Hurlbert likes how the description is included on the homepage; he will provide us a text for it
+-	Get rid of the “prey level” graph, and put the states map into the 2x2
+-	Number of records and studies should be more visible
+-	Nice to have: studies will be hyperlinked to a popup that shows the actual studies
+-	In the filter box, make the criteria flow within a sentence (keep the check boxes though)
+-	Data sources are at the bottom of the page, and they should change based on the filter
+-	No navigation bar
+-	Change to the description font to match the title font
+
+**Questions:**
+
+-	Open to exploring other databases, but prefers MySql based on familiarity and ease
+-	Thomas showed another design to Professor Hurlbert which he liked; will incorporate both design features into the final design
+
+
+**Mentor Meeting (9/10):**
+
+**Talked about meeting with Professor Hurlbert:**
+
+-	Better to received feedback early on in the process
+-	Now we know what Professor Hurlbert is expecting, so we can start modifying our project
+
+**Went over the user stories:**
+
+-	Overall, the user stories captured the features well
+-	Fixed some wording and grammar issues
+-	We should add an out-of-scope category to our user stories
+-	They are meant for features that aren’t expected this semester like the user being able to modify the Avian Database
+-	Good to have those stories on paper, so there aren’t confusion between us and Professor Hurlbert on what is expected
+
+**Design:**
+
+-	Jacob sent us a link to HackerNews about design tips; definitely take a look at it; link is in Slack
+-	With the bar graphs, decide which ones the user would prefer to see first
+-	With the states map, we can have dots representing the different studies being done in a specific area, and when we zoom out, we would get a number telling us the total number of studies (nice-to-have function)
+-	On the homepage, it is not useful to have all those different statistics; maybe just have a search bar on the homepage where the user can look up both birds and prey
+-	The above feature might bring up some issues when trying to access the database
+-	Professor Hurlbert had change his mind after seeing the design, so we should be flexible
+
+**Architecture:**
+
+-	Our architecture drawing looks good right now
+-	Jacob sent us some more examples in Slack that we can take a look at 
+
+
 **Weekly Group Meeting (9/7):**
 
 **User Stories:**
@@ -235,6 +326,8 @@ Professor Hurlbert showed us the flat excel data + went over the column descript
 -	Return outputs should be at the correct level; if that information is not available, return the highest available level (with appropriate logs)
 -	‘Prey stage’ field also adds complexity to the query; however, prey part and prey stage could be concatenated when querying (look into this later)
 -	‘Diet types’ specify how the diet distribution is measured; occurrence doesn’t sum (look at the maximum occurrence value)
+
+
 
 **Questions on the requirement**:
 
