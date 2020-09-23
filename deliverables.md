@@ -14,16 +14,8 @@ permalink: /deliverables
 - [InVision Project](https://projects.invisionapp.com/prototype/BirdyDesign-ckf4o3rnp0013tx01kkjjzjlc/play/60539f25)
 
 ### Assignment 5: Apples Reflection 1
-- <details>
-<summary>Test</summary>
+<details>
+<summary>Muyan</summary>
 <br>
-Test
-<br><br>
-<pre>
-&lt;details&gt;
-&lt;summary&gt;How do I dropdown?&lt;&#47;summary&gt;
-&lt;br&gt;
-This is how you dropdown.
-&lt;&#47;details&gt;
-</pre>
+Test Dropdown
 </details>
