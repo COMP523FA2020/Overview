@@ -17,6 +17,90 @@ permalink: /journal/
 
 # Journals
 
+**Client Meeting 9/25:**
+
+**About Database**
+
+-	If we are able to, with respect to storage limits, Hurlbert would prefer to include all information in the MySQL database, in case they get used in the future. Happy to cut down on some data if necessary.
+-	In regards to the map and data points that aren't strictly states (i.e. Southwestern US), would be nice to have a summary of those data points next to map and disregard adding them to the count for each state.
+-	In terms of searching birds, good if user can provide both common name and scientific name, and still have autocomplete.
+-	In terms of searching prey, not enough data on common name, so would have to search by the different taxonomic level. E.g. users can search at any level and receive results.
+
+**Next steps**
+
+-	Our group will keep working on the walking skeleton
+-	Meeting with Thomas next week to learn more about Carolina Cloud Apps (didn't get to last week)
+
+**Mentor Meeting 9/25:**
+
+**Recap of Meeting with Professor Hurlbert**
+
+-	Professor Hurlbert thought that having two search bars is more informational
+-	We should document all of the interactions and choices that are made during meetings
+-	Informative to look back on our notes to see why we decided on some choice
+
+**APPLES Reflection**
+
+-	Looks good; updated on our website
+
+**Architecture Diagram**
+
+-	The best diagrams are the ones where a developer and look at it and understand the situation well enough to start coding
+-	Review some of the diagrams that Jacob have sent to us; implement the idea of swim lanes
+-	There are online diagram builders that we can use to map out our architecture
+-	Really emphasize the relationship between components and how they will affect each other
+
+**Action items**
+
+-	Small changes are still needed on the architecture diagram (we need to talk about some API calls)
+-	Continue working on the walking skeleton; will demo that to Jacob this Wednesday
+-	Thomas will meet with Professor Hurlbert to talk more about databases
+
+**Birdy Meeting 9/21:**
+
+**Recap**
+
+-	Teddy and Muyan are focusing on creating the front-end with React
+-	Thomas is looking more into the database + Carolina Cloud Apps
+-	Regarding the homepage, the components will include an “about” button, 2 search bars, texts, bird image
+-	More information about the project will be at the bottom of the homepage; button will take you there
+
+**Plans for Wednesday**
+
+-	Update Jacob on what happened with 2 vs 1 search bar
+-	Will not show him the clickable prototype
+-	Compare prepared with any questions that we want to ask
+
+**Future plans**
+
+-	We will host the back-end on Heroku and the front-end on Carolina Cloud Apps
+-	Heroku free will only allow 10,000 lines for the database, so that might be the problem
+-	Thomas will meet with Professor Hurlbert on Friday to talk more about database
+-	Code session on Friday
+- Email Thomas with Apples Refection, so he can update it on the website
+
+**Client Meeting 9/18:**
+
+**Giving Professor Hurlbert Updates**
+
+-	Still going to keep improving on the design, but we feel like it is in a good place right now
+-	We are getting started on the walking skeleton, so we can see how the design looks on an website
+-	We would like to schedule a meeting to learn more about Carolina Cloud Apps
+
+**Design feedback**
+
+-	Professor Hurlbert still prefers two search bars over one
+-	Having two search bars with the context sentence really helps the user understand what he is doing
+-	Much easier and intuitive foe new users
+-	The button to flip from predator to prey needs to be more clear
+-	The results table can range in size, so we have to think about handling that
+-	The results can appear before the graphs/states map
+
+**Next steps**
+
+-	Our group will keep working on the walking skeleton
+-	Meeting with Thomas next week to learn more about Carolina Cloud Apps
+
 **Mentor Meeting (9/16):**
 
 **Design**
