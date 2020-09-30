@@ -48,15 +48,19 @@ In order to create an organized API that works well with complex queries, we cho
 <summary>Bulma</summary>
   
 **Summary**
+
 In order to style our web page, we decided to use Bulma as our CSS framework.
 
 **Problem**
+
 We want our website design to be responsive on different platforms. If the user decided to view our project on their mobile device instead of their computer, our site can adjust responsively. In addition, we want the designs on our website to be familiar to the users. This is important because they can navigate through the site easier and it's more intuitive.
 
 **Constraints** 
+
 None
 
 **Options**
+
 Plain CSS:
 - Pro: we have more options to add style to our website, we aren't restricted as much
 - Con: no built-in library that we can use (css made for a button), might not be responsive on different devices
@@ -74,6 +78,7 @@ Bulma:
 - Con: built-in classes so users have less freedom, less components when compared to Bootstrap
 
 **Rationale**
+
 We decided to use Bulma as our CSS framework because Bulma has intuitive class names that make CSS styling easy. Bulma also a limited amount of design components, so we can play around with different styles while avoid being overwhelmed. Bulma keeps up-to-date documentations on their service, which makes it easier to troubleshoot. Lastly, Bulma is responsive on difference devices and can adapt to different platforms.
 </details>
 
@@ -81,15 +86,19 @@ We decided to use Bulma as our CSS framework because Bulma has intuitive class n
 <summary>TypeScript</summary>
   
 **Summary**
+
 In order to use a programming language that defines different variable types, we decided to use TypeScript.
 
 **Problem**
+
 When a language doesn't define a specific type for its variables, then it might be confusing for the user to know the exact state of that variable. It can be difficult to debug without knowing the type and state of an variable. 
 
 **Constraints**
+
 None
 
 **Options**
+
 JavaScript
 - Pros: simple, popular so more documentation, client-side so less work is put on servers
 - Cons: types aren't defined so bugs are discovered at run time, different browsers will interpret code differently
@@ -99,6 +108,7 @@ TypeScript
 - Cons: longer code when compared to JavaScript that might not add any clarity
 
 **Rationale**
+
 We chose TypeScript over JavaScript as our frontend language because we want to have our types clearly defined. Bugs will be discovered early at compile time rather than run time. Also, the users will know the exact state of a variable rather than inferring it. 
 </details>
 
