@@ -46,6 +46,7 @@ In order to create an organized API that works well with complex queries, we cho
 
 <details>
 <summary>Bulma</summary>
+  
 **Summary**
 In order to style our web page, we decided to use Bulma as our CSS framework.
 
@@ -78,6 +79,7 @@ We decided to use Bulma as our CSS framework because Bulma has intuitive class n
 
 <details>
 <summary>TypeScript</summary>
+  
 **Summary**
 In order to use a programming language that defines different variable types, we decided to use TypeScript.
 
