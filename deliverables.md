@@ -35,15 +35,15 @@ Our team on the Avian Diet Database project aims to fulfill Professor Hurlbertâ€
 
 ### Assignment 6: Application Architecture
 
-## React
+#### React
 
 In order to quickly create a complex and interactive web app, we looked at several different frameworks. Our client wants users to have a real time experience, where data transforms as they manipulate parameters. Web frameworks are a necessity for creating these kinds of experiences: and the 3 that stand out are Vue, Angular, and React. Since two group members already had experience with React, we decided to stick to it in order to avoid a learning curve with a new framework.
 
-## GraphQL
+#### GraphQL
 
 In order to create an organized API that works well with complex queries, we chose to use GraphQL. The nature of the app requires querying a backend database with 5 or more potential parameters on any given query. A REST API for this solution would look incredibly clunky: but given GraphQL's query and variable system, a clean solution is much easier.
 
-## Bulma
+#### Bulma
   
 **Summary**
 
@@ -79,7 +79,7 @@ Bulma:
 
 We decided to use Bulma as our CSS framework because Bulma has intuitive class names that make CSS styling easy. Bulma also a limited amount of design components, so we can play around with different styles while avoid being overwhelmed. Bulma keeps up-to-date documentations on their service, which makes it easier to troubleshoot. Lastly, Bulma is responsive on difference devices and can adapt to different platforms.
 
-## TypeScript
+#### TypeScript
   
 **Summary**
 
@@ -107,7 +107,7 @@ TypeScript
 
 We chose TypeScript over JavaScript as our frontend language because we want to have our types clearly defined. Bugs will be discovered early at compile time rather than run time. Also, the users will know the exact state of a variable rather than inferring it. 
 
-## MySQL
+#### MySQL
 In order to access the data provided by Prof. Hurlbert and his team in an efficient, reliable, and standardized way, we decided to use MySQL.
 The backbone of the Avian Diet Database project a database that is currently  a tab deliminated text file. Prof. Hurlbert's current method of querying is a set of R functions that he wrote himself.
 Since we decided to use GraphQL as the API to serve our data to the frontend, we can easily fit this with the data by using TypeORM with a database like MySQL.
@@ -115,7 +115,7 @@ Furthermore, using SQL to query the database rather than creating our own parser
 There are other databases that we have also looked into like MongoDB or PostgreSQL, but the client requests we use MySQL due to his own preference.
 Since the database is relatively flat, there would be no huge benefit for any other database, so we ultimately chose based on client preference.
 
-## Carolina Cloud Apps
+#### Carolina Cloud Apps
 In order for the frontend to access our APIs, we decided to use Carolina Cloud Apps to host the backend and database.
 There are other alternatives like Heroku, but since the database contains over 50,000+ rows, it exceeds the free tier limit that Heroku provides. This is a similar issue for other services.
 We decided to use Carolina Cloud Apps because Prof. Hurlbert is able to increase memory limits for the servers for free if needed.
