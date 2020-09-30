@@ -87,25 +87,25 @@ In order to use a programming language that defines different variable types, we
 
 **Problem**
 
-When a language doesn't define a specific type for its variables, then it might be confusing for the user to know the exact state of that variable. It can be difficult to debug without knowing the type and state of an variable. 
+When a language doesn't define a specific type for its variables, it might be confusing for the user to know the exact state of that variable. It can be difficult to debug without knowing the type and state of an variable. 
 
 **Constraints**
 
-None
+We want to use a frontend-focused language that all of us have had experience with, so we are comfortable from the beginning.
 
 **Options**
 
 JavaScript
-- Pros: simple, popular so more documentation, client-side so less work is put on servers
+- Pros: simple, popular so more documentation, client-side so less work is put on the servers
 - Cons: types aren't defined so bugs are discovered at run time, different browsers will interpret code differently
 
 TypeScript
-- Pros: types are defined, additional features like interfaces and generics that don't exist in JavaScript, Compile time type checking
+- Pros: types are defined, additional features like interfaces and generics that don't exist in JavaScript, compile time type checking
 - Cons: longer code when compared to JavaScript that might not add any clarity
 
 **Rationale**
 
-We chose TypeScript over JavaScript as our frontend language because we want to have our types clearly defined. Bugs will be discovered early at compile time rather than run time. Also, the users will know the exact state of a variable rather than inferring it. 
+We chose TypeScript over JavaScript as our frontend language because we want to have our types clearly defined. Bugs will be discovered earlier at compile time rather than at run time. Also, the users will know the exact state of a variable rather than inferring it. 
 
 #### MySQL
 In order to access the data provided by Prof. Hurlbert and his team in an efficient, reliable, and standardized way, we decided to use MySQL.
