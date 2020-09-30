@@ -130,3 +130,7 @@ We decided to use Carolina Cloud Apps because Prof. Hurlbert is able to increase
 Having the backend also in Carolina Cloud App allows easy interaction between it and the database.
 Prof. Hurlbert also prefers the use of Carolina Cloud App, since he is able to get direct assistance with University staff if any trouble is to occur.
 </details>
+
+### Assignment 7: Application Diagram
+
+<img src="https://docs.google.com/drawings/d/e/2PACX-1vQ-fdJh91oJPH_JyRG85LArbDBjpiiCFDuYjytZ-0xZuUt9afiJ_MpOJVJm-emyyuwfSvCmFejkP-Z1/pub?w=960&amp;h=720">
