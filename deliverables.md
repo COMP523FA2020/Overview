@@ -52,10 +52,16 @@ None
 **Options**
 
 Vue
+- Pros: Simple syntax and learning curve, smaller in size (comparatively)
+- Cons: Smaller than Angular or React, maintained by small group
 
 Angular
+- Pros: Good typescript support
+- Cons: Little harder to learn (comparatively)
 
 React
+- Pros: Frontend team already knows react
+- Cons:
 
 **Rationale**
 
