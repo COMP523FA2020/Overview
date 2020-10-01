@@ -61,7 +61,7 @@ Angular
 
 React
 - Pros: Frontend team already knows react
-- Cons:
+- Cons: Not as featured as Angular.
 
 **Rationale**
 
@@ -83,12 +83,16 @@ None
 **Options**
 
 Rest API
+- Pros: More common, other people may have an easier time integrating their own systems with our backend.
+- Cons: As the queries rise in complexity, the request URLs may become unmanageable.
 
 GraphQL
+- Pro: Simplifies complex queries and return types.
+- Con: More of a learning curve, potentially more trouble to set up in the backend.
 
 **Rationale**
 
-A REST API for this solution would look incredibly clunky: but given GraphQL's query and variable system, a clean solution is much easier.
+A REST API for this solution would look incredibly clunky: but given GraphQL's query and variable system, a clean solution is much easier. The simplicity gained outweighs the cost of initially learning it.
 
 #### Bulma
   
