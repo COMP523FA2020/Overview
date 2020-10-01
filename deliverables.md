@@ -167,7 +167,7 @@ Flat Text File
 - Cons: Have to parse file ourselves, still have to transform data to work with backend
 
 A DBMS
-In terms of DBMS, any of the popular ones would work fine. The database is relatively flat and small so there is no huge benefit between them.
+- In terms of DBMS, any of the popular ones would work fine. The database is relatively flat and small so there is no huge benefit between them.
 - Pros: Reliable, easily accessible, scalable
 - Cons: Have to transfer current .txt format to a DBMS
 
