@@ -17,6 +17,45 @@ permalink: /journal/
 
 # Journals
 
+**Caronlina Cloud App Meeting 9/29**
+
+**Overall Picture: Kubernetes and Docker images**
+
+How the platform works is that it adds our code on top of an image (e.g. openshift/node.js image) and uses docker to build a new “golden image”. This is what will be used to deploy.
+For the most part, deployments are stateless. If we redeploy, changes on the running pod will be gone. However, we can get persistent storage by setting up application with a storage volume.
+
+-	Won’t go into too much detail about this unless necessary
+In terms of possible memory limitations:
+-	The dept-dietdatabase project has increased resources compared to our personal projects.
+-	We can request increase on resources with justification (e.g. out of memory when building app)
+
+**Other Important Points**
+
+-	For a NodeJS project, the default way it will be deployed is with a “start” script in package.json if applicable. We can modify this by setting the NPM-RUN env variable. For more details https://github.com/sclorg/s2i-nodejs-container/tree/master/10 
+-	The dept-dietdatabase project will not go idle like personal projects do
+-	If you try setting up your own personal projects on Carolina Cloud Apps, you will notice deployments will go idle after a while. This is not the same for dept projects, so we don’t have to worry about that.
+-	Probably avoid trying to build our own docker image, some security concerns.
+-	Don’t put passwords/any important information in the actual code base. Use environmental variables.
+-	If we need any additional help, email cloudapps@unc.edu
+-	https://help.unc.edu/sp?id=search&t=kb&q=cloudapps has documentation, but might be a bit tricky to look through.
+-	As for running dev deployments, we can either do this in the same projects with different built applications for dev vs prod. Completely up to us/Hurlbert.
+-	If we need help running our application on the platform, we can contact them for a 30 min session of sorts.
+
+**Birdy Meeting 9/28:**
+
+**Architecture diagram + system**
+
+- Divided up the decision write up:
+- Thomas: MySQL, Carolina Cloud Apps
+- Teddy: GraphQL, React
+- Muyan: TypeScript, Bulma
+- For the diagram, Teddy added names under the logos and included more information like tools and languages
+
+**Walking Skeleton**
+
+- Each member gave an update on what they are working on
+- Hoping to show Jacob an update on Wednesday
+
 **Client Meeting 9/25:**
 
 **About Database**
