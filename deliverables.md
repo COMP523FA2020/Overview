@@ -37,11 +37,52 @@ Our team on the Avian Diet Database project aims to fulfill Professor Hurlbertâ€
 
 #### React
 
-In order to quickly create a complex and interactive web app, we looked at several different frameworks. Our client wants users to have a real time experience, where data transforms as they manipulate parameters. Web frameworks are a necessity for creating these kinds of experiences: and the 3 that stand out are Vue, Angular, and React. Since two group members already had experience with React, we decided to stick to it in order to avoid a learning curve with a new framework.
+**Summary**
+
+In order to quickly create a complex and interactive web app, we decided to use the React framework.
+
+**Problem**
+
+Our client wants users to have a real time experience, where data transforms as they manipulate parameters. Web frameworks are a necessity for creating these kinds of experiences
+
+**Constraints**
+
+None
+
+**Options**
+
+Vue
+
+Angular
+
+React
+
+**Rationale**
+
+Since two group members already had experience with React, we decided to stick to it in order to avoid a learning curve with a new framework.
 
 #### GraphQL
 
-In order to create an organized API that works well with complex queries, we chose to use GraphQL. The nature of the app requires querying a backend database with 5 or more potential parameters on any given query. A REST API for this solution would look incredibly clunky: but given GraphQL's query and variable system, a clean solution is much easier.
+**Summary**
+
+In order to create an organized API that works well with complex queries, we decided to use GraphQL.
+
+**Problem**
+The nature of the app requires querying a backend database with 5 or more potential parameters on any given query.
+
+**Constraints**
+
+None
+
+**Options**
+
+Rest API
+
+GraphQL
+
+**Rationale**
+
+A REST API for this solution would look incredibly clunky: but given GraphQL's query and variable system, a clean solution is much easier.
 
 #### Bulma
   
@@ -108,19 +149,59 @@ TypeScript
 We chose TypeScript over JavaScript as our frontend language because we want to have our types clearly defined. Bugs will be discovered earlier at compile time rather than at run time. Also, the users will know the exact state of a variable rather than inferring it. 
 
 #### MySQL
+
+**Summary**
 In order to access the data provided by Prof. Hurlbert and his team in an efficient, reliable, and standardized way, we decided to use MySQL.
-The backbone of the Avian Diet Database project a database that is currently  a tab deliminated text file. Prof. Hurlbert's current method of querying is a set of R functions that he wrote himself.
+
+**Problem**
+
+The backbone of the Avian Diet Database project a database that is currently  a tab deliminated text file. Prof. Hurlbert's current method of querying is a set of R functions that he wrote himself. This is hard to integrate cleanly with our chosen backend technology (GraphQL).
+
+**Constraints**
+Client prefers MySQL
+
+**Options**
+
+Flat Text File
+
+MongoDB
+
+PostgreSQL
+
+MySQL
+
+**Rationale**
+
 Since we decided to use GraphQL as the API to serve our data to the frontend, we can easily fit this with the data by using TypeORM with a database like MySQL.
 Furthermore, using SQL to query the database rather than creating our own parser for a text file would be much more efficient in term of time and manpower.
-There are other databases that we have also looked into like MongoDB or PostgreSQL, but the client requests we use MySQL due to his own preference.
 Since the database is relatively flat, there would be no huge benefit for any other database, so we ultimately chose based on client preference.
 
 #### Carolina Cloud Apps
+
+**Summary**
+
 In order for the frontend to access our APIs, we decided to use Carolina Cloud Apps to host the backend and database.
-There are other alternatives like Heroku, but since the database contains over 50,000+ rows, it exceeds the free tier limit that Heroku provides. This is a similar issue for other services.
+
+**Constraints**
+
+Client prefers Carolina Cloud Apps
+
+Database has 50,000+ records
+
+Free is preferable
+
+**Options**
+
+Heroku
+
+Carolina Cloud Apps
+
+**Rationale**
+
+Since the database contains over 50,000+ rows, it exceeds the free tier limit that Heroku provides. This is a similar issue for other services.
 We decided to use Carolina Cloud Apps because Prof. Hurlbert is able to increase memory limits for the servers for free if needed.
 Having the backend also in Carolina Cloud App allows easy interaction between it and the database.
-Prof. Hurlbert also prefers the use of Carolina Cloud App, since he is able to get direct assistance with University staff if any trouble is to occur.
+Furthermore, client prefers Carolina Cloud App, since he is able to get direct assistance with University staff if any trouble is to occur.
 
 ### Assignment 7: Application Diagram
 
