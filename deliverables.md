@@ -163,18 +163,19 @@ Client prefers MySQL
 **Options**
 
 Flat Text File
+- Pros: No need to use DBMS, no need to transform data to migrate to database (can reuse client logic in R functions)
+- Cons: Have to parse file ourselves, still have to transform data to work with backend
 
-MongoDB
-
-PostgreSQL
-
-MySQL
+A DBMS
+In terms of DBMS, any of the popular ones would work fine. The database is relatively flat and small so there is no huge benefit between them.
+- Pros: Reliable, easily accessible, scalable
+- Cons: Have to transfer current .txt format to a DBMS
 
 **Rationale**
 
 Since we decided to use GraphQL as the API to serve our data to the frontend, we can easily fit this with the data by using TypeORM with a database like MySQL.
 Furthermore, using SQL to query the database rather than creating our own parser for a text file would be much more efficient in term of time and manpower.
-Since the database is relatively flat, there would be no huge benefit for any other database, so we ultimately chose based on client preference.
+We ultimately chose based on client preference.
 
 #### Carolina Cloud Apps
 
@@ -193,8 +194,12 @@ Free is preferable
 **Options**
 
 Heroku
+- Pros: Learned how to use in class, a lot of easily accessible documentation, straightforward to use.
+- Cons: Free tier has limitation on memory.
 
 Carolina Cloud Apps
+- Pros: University supported so can get direct help from team running service, able to increase memory limit for free
+- Cons: Documentation is a little hard to find, a bit more complicated to set up than other services, requires connection to UNC VPN
 
 **Rationale**
 
