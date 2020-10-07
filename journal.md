@@ -16,6 +16,45 @@ permalink: /journal/
 - Mondays at 4pm
 
 # Journals
+**Client Meeting 10/2:**
+
+**Feedback on walking skeleton**
+
+- The title "Avian Diet Database" should be in large fonts 
+- The two search bars should be wrapped within the query questions
+- Included a logo of the project; right now, a icon can take place of the logo
+- He likes the navigation bar at the top
+- Include a short line of description under the title
+- Professor Hurlbert will provide us with a logo with transparent background
+
+**Updates on integration + backend**
+
+- Front-end build failed on Carolina Cloud Apps, we need more memory
+- Thomas has some questions with query statements, and he wants to compare them to R statements
+- Thomas will schedule a meeting with Professor Hurlbert to address those issues
+- For the integration, Professor Hurlbert will provide us with a short list of items that we can use to ensure that the backend in connected
+
+**Mentor Meeting 10/1:**
+
+**Feedback on walking skeleton**
+
+- Everything looks on track so far
+- To integrate the front end of the back end, we should just add 3ish items from the back end and connect them to the front end
+- For the walking skeleton, we are going to keep with 2 search bars; will might change later but depends on Professor Hurlbert
+- Going to show Professor Hurlbert our progress on the walking skeleton tomorrow
+- Front end components have only been created for the homepage, still working on the query page
+
+**Feedback on architecture design/algorithm** 
+
+- We covered most of the important architecture decisions
+- Busy week for the team, so we weren't able to add the extra features to our architecture diagram
+- Not every component within the diagram had a decision; only 3-6 decisions are needed
+- Standardized the format of our architecture decisions
+
+**Action items**
+
+-Fixing the format of our architecture design
+- Continue trying to integrate the front end and the back end on the walking skeleton
 
 **Caronlina Cloud App Meeting 9/29**
 
