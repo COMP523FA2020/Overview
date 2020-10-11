@@ -16,6 +16,48 @@ permalink: /journal/
 - Mondays at 4pm
 
 # Journals
+
+**Client Meeting 10/9:**
+
+**Feedback on walking skeleton**
+
+- Reduce the size of the criteria boxes while maintaining the text size
+- Change the search bar texts on the homepage
+- No blue spaces at the top of the home page
+- Order should only show up once on the item page
+
+**Backend questions**
+
+- Region will mainly be US states
+- If a query has two states, then the map will double-dip and count both states
+- Map will include Canada, Mexico, and Hawaii
+- Graphs take a high priority than the map
+
+**Mentor Meeting 10/7:**
+
+**Upcoming Presentation**
+
+- Start off by stating our goal
+- We have good documentation, so utilize that during our presentation
+- Show the different clickable prototypes that we have developed and our conversations with Professor Hurlbert
+- Talk about our architecture diagram and decisions
+- We should spend a decent amount of time on the backend
+- The ppt should be a reminder, but we shouldn't read off of it
+- People can only do 1 thing at a time, so they can pay attention to the speaker or they can read the slides
+- Being nervous is a normal state of mind before presentations
+- Definitely talk about where we are now, and how we can continue to develop
+- After a presentation, people won't remember what you said, but they will remember how you make them feel
+
+**Walking skeleton**
+
+- Good progress so far
+- Confident that we can finish this before the deadline
+- The request is being sent right now; just some small errors
+
+**Actions items**
+
+- Components need to be made for the error page, loading page, and item page
+
 **Client Meeting 10/2:**
 
 **Feedback on walking skeleton**
