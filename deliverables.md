@@ -224,4 +224,4 @@ Furthermore, client prefers Carolina Cloud App, since he is able to get direct a
 
 ### Assignment 8: Walking Skeleton
 
-http://frontend-dept-dietdatabase.cloudapps.unc.edu/ (Link subject to change)
+[http://frontend-dept-dietdatabase.cloudapps.unc.edu/](http://frontend-dept-dietdatabase.cloudapps.unc.edu/) (Link subject to change)
