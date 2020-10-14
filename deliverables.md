@@ -221,3 +221,7 @@ Furthermore, client prefers Carolina Cloud App, since he is able to get direct a
 ### Assignment 7: Application Diagram
 
 <img src="https://docs.google.com/drawings/d/e/2PACX-1vQ-fdJh91oJPH_JyRG85LArbDBjpiiCFDuYjytZ-0xZuUt9afiJ_MpOJVJm-emyyuwfSvCmFejkP-Z1/pub?w=960&amp;h=720">
+
+### Assignment 8: Walking Skeleton
+
+http://frontend-dept-dietdatabase.cloudapps.unc.edu/ (Link subject to change)
