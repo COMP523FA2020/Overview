@@ -4,7 +4,7 @@ permalink: /project
 ---
 [Home](/Overview/) |  [Project](/Overview/project) | [Team](/Overview/team) | [Journal](/Overview/journal) | [Deliverables](/Overview/deliverables)
 
-### http://frontend-dept-dietdatabase.cloudapps.unc.edu/
+### [http://frontend-dept-dietdatabase.cloudapps.unc.edu/](http://frontend-dept-dietdatabase.cloudapps.unc.edu/)
 
 ## Summary
 A mobile-friendly web page that presents bird diet information using data compiled by Prof. Hurlbert's lab in an interactive and easy to digest manner. It does this using data visualizations (e.g. maps, graphs, etc.) along with interactive filters (e.g. geographic, temporal, taxonomic, etc.) that provide a variety of ways to explore the relationships between a bird and its diet.
