@@ -258,6 +258,14 @@ I feel that `index.js` is important to test since this is where the express app 
 
 ### Frontend Coverage Report
 
+<img src="https://drive.google.com/uc?export=view&id=1TVkm_wtloqKAVxXYW-eV3YJpBTQwrdvy">
+
+<img src="https://drive.google.com/uc?export=view&id=1-ZK57JNnVsFVWU9MPrQNZXJyUzxZPIdl">
+
+<img src="https://drive.google.com/uc?export=view&id=1TRBB1QRUFZuorVfIb7IEHwHMVD4llqUG">
+
+We used Jest to test our frontend code. 
+
 **Test Suite Health**
 
 The results of our tests represent a semi-healthy test suite. We were able to cover the most important frontend features like the query table, but we were unable to cover some files like the search bar. We are comfortable with this outcome. 
