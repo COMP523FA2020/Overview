@@ -225,3 +225,51 @@ Furthermore, client prefers Carolina Cloud App, since he is able to get direct a
 ### Assignment 8: Walking Skeleton
 
 [http://frontend-dept-dietdatabase.cloudapps.unc.edu/](http://frontend-dept-dietdatabase.cloudapps.unc.edu/) (Link subject to change)
+
+### Assignment 11: Test Coverage Report
+
+### Backend Coverage Report
+
+<img src="https://drive.google.com/uc?export=view&id=1ieI89PCZnHACfql7mUvyiFb9Bn3PWfM8">
+
+This is the test coverage report for the backend of the AvianDietDatabase project, specifically any utility functions and GraphQL query resolvers. The testing framework we use is Jest.
+
+**Test Suite Health**
+
+If we are going by *overall* health of the test suite, I do not believe looking at test coverage can really determine anything substantial about a test suite since quality of test matters more. At most, if coverage is high, it indicates we at least have tests that cover most of our code, which *might* be better than nothing.
+
+If we are just using coverage as the measure for health, I woulds say that the report indicates a "healthy" test suite, given that it covers most of the lines of code, at 91.44% coverage.
+
+**Parts Not Tested**
+
+One part of the code we don't test is the `AvianDiet.ts` file, which contains our AvianDiet entity. It is not directly tested against because we indirectly test it when we test our resolvers, which operate with the object. We expect certain fields from the AvianDiet entity when using our resolvers, and if our resolver fails, we can pinpoint the error being related to our entity if needed. Also AvianDiet entity does not contain any functions that we write where we expect certain return values, it is just a class with certain fields. The test coverage report indicates that 0% of functions under `src/entities` (our `AvianDiet.ts`) are covered. This is because we includes two lambda functions within our @Field decorators to indicate that this TypeGraphQL field is an Int. This is related to the database, so we don't directly test the lambda function in the decorator.
+
+We don't test any files under `src/migrations` since those are generated files from our AvianDiet entity.
+
+Finally, we don't test any files under `src/tst/tst-utils` since those are used for our testing and simply sets up a mock database and TypeORM connection. It is marked as "covered" in the report since we use those functions in our testing.
+
+**Top Priority**
+
+The top priority in testing would be the resolver functions, as the values they return are the values received by clients who query our backend server (in our case the client is our frontend website). These resolvers are essential since they would be providing the data that the whole project revolves around.
+
+**Unsure How to Test**
+
+I feel that `index.js` is important to test since this is where the express app and ApolloServer are created/started. The expected functionality is to start up successfully, so I wasn’t sure how to tackle testing. What I’ve looked into is integration testing by mocking an ApolloClient (provided by apollographql), and starting up a test ApolloServer, similarly to how I set up a test database. However, most examples I’ve seen, it seems to be a separate Integration Test file rather than directly using index.js.
+
+### Frontend Coverage Report
+
+**Test Suite Health**
+
+The results of our tests represent a semi-healthy test suite. We were able to cover the most important frontend features like the query table, but we were unable to cover some files like the search bar. We are comfortable with this outcome. 
+
+**Parts Not Tested**
+
+With features like the search bar, we are just sending an API call, so most of the logic is done in the backend. In our frontend testing, we want to focus on features where a lot of the logic is put on the frontend like sorting within the table or creating the states map. 
+
+**Top Priority**
+
+The top testing priority is the query table on the item page. That table contains the data that researchers or everyday visitors can use or read. A huge challenge when creating the table was ensuring that our web visitors had the flexibility to sort and modify the table using many different criteria. This motivated us to write many sort tests to make sure that moving around data in the table or modifying the data won’t produce any bugs. Sorting is a feature that almost all of our visitors will use, so we want to cover all of the use cases. 
+
+**Unsure How to Test**
+
+Another important feature on the frontend is the graph section. We weren’t sure of how to test that feature. The logic of retrieving the correct numbers comes from the backend, so on the frontend, we are only trying to visualize that data. In the future, more time can be spent on making sure that the graph is formatted correctly for the client
