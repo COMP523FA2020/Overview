@@ -17,6 +17,208 @@ permalink: /journal/
 
 # Journals
 
+**Mentor Meeting 11/4:**
+
+**Feedback on test coverage:**
+
+- Backend test coverage is good
+- Frontend test coverage is good, but make sure to include the most updated coverage report
+- For frontend testing, 3 items in the database so we know how our query should work
+- Always hard to distinguish issues on the frontend versus backend
+
+**Feedback on demo:**
+
+- Looks good; home stretch
+- Fix the colors on the map; 0 and no data should have the same color
+- Keep working on the things that Professor Hurlbert asks
+
+**Others:**
+-Talk to Professor Hurlbert about transition and passing this project on
+- Maybe do a code walk through and/or inspection so that others can learn how to code this project
+
+**Birdy Meeting 11/2:**
+
+**Recap**
+
+- Talked over the priority list from last client meeting and edited it; see last meeting notes for more details
+- Will focus on testing in the beginning of the week
+- End of the week will focus on the checklist and working through it
+
+**Action items**
+
+- Refer for previous meeting notes for detailed distribution of tasks
+
+**Client Meeting 10/30:**
+
+These are ordered in priority that Hurlbert prefers
+
+**Main Priority**
+
+- Testing [All]
+- Working prey page [Teddy]
+- Change records per diet to # of records [Thomas]
+- Matching on common name (prey) [Thomas]
+- Cron job for pulling data [Thomas]
+- End year filter can't be before start year filter [Muyan]
+- Reorder table columns to Taxon ... [Muyan]
+- Change number of studies per state to "records" [Muyan]
+- "Here's what the ____ eats..." (change search title) [Muyan]
+- Sorting by item descending by default [Muyan]
+- Intersect region selections with region table sent email [Thomas]
+- Get search boxes lined with each other [Muyan]
+- Birds known to eat ____ based on ... [Muyan]
+- Separate diet type tables for prey page (one tbale for occurrence, one for items, etc) [Muyan]
+ - Would get rid of based on diet type filter
+- Dynamic update of filters, filter dropdown comes from database [Thomas, Teddy]
+- Dynamic updating source [Teddy]
+- Header sort for table doesn't scroll up [Teddy]
+- Hyperlinking bird and prey [Teddy]
+- No data is same as 0 records in map [Muyan]
+
+**Nice To Haves**
+- Using arrow keys and enter keys for search bar
+- Update metadata to include citation
+ - Requires citation format from Prof.
+- Link sources to row somehow for prey page
+- Expand prey table, # of studies
+- Nicer mobile page
+- Expand Map
+- Removing column if no data is on column
+
+**Mentor Meeting 10/28:**
+
+**Updates on Tech Talk**
+
+- Overall, we felt great about how the talk went
+- Audience participation was low at times; next times, maybe ask some members (friends) in the audience ahead of time to ask you specific questions
+
+**Testing**
+
+- Frontend testing can be done using Selenium
+- We don't have to create a mock database to test our backend
+- We can read through our PROD database and use certain bird data that we already know
+
+**Feedback on demo**
+
+- The search bar could be controlled by arrow keys and enter
+- https://stackoverflow.com/questions/33790668/arrow-keys-navigation-through-li-no-jquery
+- https://stackoverflow.com/questions/44150908/need-to-use-arrow-keys-to-move-through-search-suggestions
+- When hovering a state on the map, it should tell you the number of records
+- Is there a difference between 0 and no data on the states map?
+- Numbers should also show on the bar graphs when hovered over
+- Clarify the diet type graph and whether it should be percentages
+- Header and alignment need to be fixed on the table; headers should always show
+
+**Client Meeting 10/23:**
+
+**Weekly Feedback**
+
+- Taxon should be the 1st column
+- Sorting should default to items descending 
+- Shrink and then combine the graphs
+- Flip summer and spring on the graph; also combine the last 2 categories
+- For the map, it should say "records" not "studies"
+- Think about some useful links to put in the navigation bar
+- Adding search bar on items page
+- Grab info from updated database
+- Prey page should only have table, sources, and criteria
+
+**Plan for Tech Talk**
+
+- Muyan: summary + pros and cons
+- Teddy: actual components
+- Thomas: usage of GraphQL in our project
+- Active learning component
+
+**Mentor Meeting 10/21:**
+
+**Demo Feedback**
+
+- Talk more with Professor Hurlbert on how the graphs should dynamically update
+- States map still needs to dynamically update (looks just awkward lol)
+- Year range bug where the minimum year could be greater than the maximum year
+- "Unknown" prey bug
+- Prey page needs to be cleaned up; only needs filter and table
+
+**Future Plans**
+
+- Will talked about GraphQL on Monday to the class
+- For testing frontend, we can extract the UI components and test API calls
+- Do we really want to download a ZIP file? Mobile experience won't be that good; metadata can just be included in the CSV file
+- Ask Professor Hurlbert on the % of users that are mobile
+
+**Birdy Meeting 10/19:**
+
+**Updates**
+
+- Thomas: cleaning up queries; working up states map query
+- Teddy: formatting, making graphs dynamic, implementing sorting feature
+- Muyan: states map feature, fixing download functionality
+
+**Action Items**
+
+- Keep working at individual tasks
+- Will rehearse tech talk this weekend 
+
+**Client Meeting 10/16:**
+
+**Walking Skeleton Feedback**
+
+- Prey graphs are optional; we can include them if it is easier for us
+- "Bald Eagles Eat" and "[prey] Is Eaten By" should be the respective item page titles
+- Studies/records should be in one sentence (smaller font size)
+- Graphs should be updated while criteria is changed
+- Decade's graph can remain static
+- Scientific name = species (only species should show up client side)
+- When the querying criteria is returning an empty table, the error message should include "try different criteria"
+- 1st column in the table should be prey taxon
+- Don't need _type in the table
+- Need to add ascend and descend options (weight/vol, item, occurrence)
+- If a column is blank, don't show it
+- On the table, reduce the number of decimal places (round to the nearest tenth)
+- Include an symbol * if data is near 0
+- Excel file should have all sig figs though
+- Download should include a zip file (excel file + metadata)
+- Citation and datatable should both get black border title
+- Download button should be closer to datatable
+- Larger data table (increasing the height is fine)
+- Smaller graphs, so 2 can fit in a column
+- Table should be moved to left side; graphs moved to right side
+- Prey page should only have filters + table + sources
+
+**Mentor Meeting 10/14:**
+
+**General Updates**
+
+- Thomas is working on cleaning up the database; he is notifying Professor Hurlbert whenever a change is needed
+- Thomas is taking the role of a data quality tester
+
+**Feedback on walking skeleton**
+
+- Implement the single-bar design and have that ready
+- Update the design in InVision to prepare for iterative feedback
+- We should still aim for active ffedback
+- When we show our design to the test users, we can either give them a lot of freedom and just observe them or we can provide them with step-by-step instructions
+- Query table should have ascend and descend options
+- Might be better to have literal numbers on the bar graphs
+- Might implement broken bar graphs if the numbers are far apart
+- Our bar width is fixed right now; needs to be responsive
+- Aske for iterative feedback, but for each session, have a limited audience size so everyone's voice is heard
+
+**Birdy Meeting 10/12:**
+
+**Recap**
+
+- Feel comfortable with the walking skeleton
+- There are some formatting/frontend clean ups that we have to take care
+
+**Action items**
+
+- Maybe change some of the querying logic
+- Implementing all of the graph components
+- Frontend clean up checklist
+- Asking clarifying questions to Professor Hurlbert
+
 **Client Meeting 10/9:**
 
 **Feedback on walking skeleton**
