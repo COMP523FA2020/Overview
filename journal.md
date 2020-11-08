@@ -17,6 +17,25 @@ permalink: /journal/
 
 # Journals
 
+**Client Meeting 11/6:**
+
+**Feedback on new design**
+
+- Wants both search bars on the homepage
+- Fine with the new colors
+- Visitors might be confused on the website's purpose from the homepage
+- Size of the title needs to be bigger
+- Doesn't like having to go somewhere to see a search bar
+- Wants to reduce the number of clicks on the homepage
+
+**Additional features/updates**
+
+- Under the title on homepage, we should also include X species, y studies, z record
+- Icon/logo needs to be changed
+- Color scale needs to be dynamic
+- More criteria fixes
+- More details can be found in previous client meeting logs
+
 **Mentor Meeting 11/4:**
 
 **Feedback on test coverage:**
