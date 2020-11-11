@@ -283,6 +283,6 @@ The top testing priority is the query table on the item page. That table contain
 Another important feature on the frontend is the graph section. We weren’t sure of how to test that feature. The logic of retrieving the correct numbers comes from the backend, so on the frontend, we are only trying to visualize that data. In the future, more time can be spent on making sure that the graph is formatted correctly for the client
 
 ### Assignment 12: Developer README.md
-Frontend: https://github.com/COMP523FA2020/Frontend
+[Frontend Repo](https://github.com/COMP523FA2020/Frontend)
 
-Backend: https://github.com/COMP523FA2020/Backend
+[Backend Repo](https://github.com/COMP523FA2020/Backend)
