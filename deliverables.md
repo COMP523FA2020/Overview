@@ -286,3 +286,13 @@ Another important feature on the frontend is the graph section. We weren’t sur
 [Frontend Repo](https://github.com/COMP523FA2020/Frontend)
 
 [Backend Repo](https://github.com/COMP523FA2020/Backend)
+
+### Assignment 14: APPLES Reflection 2
+
+#### Muyan
+
+My impression on my client’s purpose has remained the same. Avian Diet Database has two main goals. One, this website allows researchers or students to query through the backend database. If a researcher wants to know exactly what certain birds eat during a specific season, he can make that query intuitively using our website. This project gives researchers the ability to modify their queries. The second purpose of this website is to introduce birds and their diet to everyday individuals. If a child wants to look up a random bird and learn what it eats, he can do that easier through the homepage.  
+
+I am more excited about the website’s goal of introducing birds and their diet to everyday individuals. While the graphs and map that summarize the query results are informational, they are also fun and can attract an audience. These visual aids can help give an overview of the query results, so individuals don’t have to scan the query table row by row. The website also caters to both researchers and everyday folks by allowing individuals to look up a bird by its common name or scientific name. This feature allows everyone to look up the bird that they are interested in! 
+
+Our project does not add any new information about birds and their diet. The information is already there; we simply created a website that allowed individuals to query that information. However, instead of running complex scripts to look up specific diet information, our users can now select a few dropdowns, and the information will be returned to them both in a table and in various visual representations. Our website will cut down the time that researchers use to find useful information. More importantly, no individual is going to become interested in birds and what they eat through a database; they would only be overwhelmed. Our website provides them an opportunity to look at birds that interest them and returns that information in a fun style. 
