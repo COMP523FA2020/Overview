@@ -12,9 +12,7 @@ permalink: /client_overview
 
 #### React Frontend
 
-The frontend is built using React. It contains a root component called App defined in the App.tsx file. This component is rendered in the root HTML file, index.html.
-
-TODO
+The frontend is built using React. It contains a root component called App defined in the App.tsx file. This component is rendered in the root HTML file, index.html. The major components of the Frontend are the design and logic components. As the name implies, the logic components handles what happens when users interact with the site, such as which requests to send, actions occuring when buttons are clicked, etc. The design components handle the visuals on the site, such as text, font sizes, containers, etc.
 
 #### GraphQL Backend
 
