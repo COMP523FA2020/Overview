@@ -2,7 +2,7 @@
 title: "Project"
 permalink: /project
 ---
-[Home](/Overview/) |  [Project](/Overview/project) | [Team](/Overview/team) | [Journal](/Overview/journal) | [Deliverables](/Overview/deliverables)
+[Home](/Overview/) | [Project](/Overview/project) | [Team](/Overview/team) | [Journal](/Overview/journal) | [Deliverables](/Overview/deliverables) | [Client Overview](/Overview/client_overview)
 
 ### [http://frontend-dept-dietdatabase.cloudapps.unc.edu/](http://frontend-dept-dietdatabase.cloudapps.unc.edu/)
 
