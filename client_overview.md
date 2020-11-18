@@ -57,6 +57,16 @@ Each of the above components are deployed/run on this platform. The Frontend, Ba
 
 In order to manage the project, access to the Carolina Cloud Apps project is necessary, which our client (Professor Hurlbert) already has. Here, one may shutdown services, add new applications, change the cron job scheduling, and etc.
 
+## Costs
+
+The front and backend are currently hosted using Carolina Cloud Apps and will not incur costs.
+
+## Code
+
+The code for the front and backend are in their corresponding repositories in this organization. Carolina Cloud Apps pulls the latest branch of each in order to build and the project.
+
+The app is available at: http://frontend-dept-dietdatabase.cloudapps.unc.edu/
+
 ## Features
 
 ### Need-To-Have
