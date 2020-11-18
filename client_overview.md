@@ -12,6 +12,8 @@ permalink: /client_overview
 
 #### React Frontend
 
+The frontend is built using React. It contains a root component called App defined in the App.tsx file. This component is rendered in the root HTML file, index.html.
+
 TODO
 
 #### GraphQL Backend
