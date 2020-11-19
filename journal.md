@@ -17,6 +17,51 @@ permalink: /journal/
 
 # Journals
 
+**Birdy Meeting 11/16:**
+
+**Next steps**
+
+- Split up client overview assignment; Thomas has the first 3 bullets, Teddy has the next 4 bullets, Muyan has the last 3 bullets
+- Email APPLES Reflection to Thomas when complete, and he will put it on the website
+- Muyan will focus on improving frontend testing 
+- Teddy will focus on criteria bug
+- Thomas will focus on backend
+
+**Final Presentation**
+
+- Thomas: project overview
+- Teddy: architecture diagram
+- Muyan: lessons learned + demo
+
+
+**Mentor Meeting 11/11:**
+
+- Talked about client overview
+ - Make sure that Professor Hurlbert has all the access/info
+ - Talk about the nice-to-have's
+- Q&A time!!!
+
+**Birdy Meeting 11/11:**
+
+- Went over action items from 10/30 meeting
+- Visit 10/30 meeting logs for more info
+
+**Birdy Meeting 11/9**
+
+**Recap:**
+
+- Thomas: continue working on queries, focusing on prey queries
+- Teddy: Updating the homepage design, potentially meeting with Professor Hurlbert
+- Muyan: continue working on graphs, will add data to homepage once the design settles
+
+**Assignment:**
+
+- README is complete, needs proofreading
+
+**Actions items:**
+
+- Keep working on checklist, see meeting notes from 10/30
+
 **Client Meeting 11/6:**
 
 **Feedback on new design**
